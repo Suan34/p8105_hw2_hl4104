@@ -107,7 +107,7 @@ subway_df |>
 #mr.trash
 mr_trash = 
   read_excel(
-  "202509 Trash Wheel Collection Data.xlsx",
+  "202610 Trash Wheel Collection Data.xlsx",
   sheet = "Mr. Trash Wheel",
   range = "A2:N709"
   ) |>
@@ -124,7 +124,7 @@ mr_trash
 #professor_trash
 professor_trash = 
   read_excel(
-  "202509 Trash Wheel Collection Data.xlsx",
+  "202610 Trash Wheel Collection Data.xlsx",
   sheet = "Professor Trash Wheel",
   range = "A2:M134"
   ) |>
@@ -139,8 +139,8 @@ professor_trash
 #Gwynns Falls trash
 gwynnda = 
   read_excel(
-  "202509 Trash Wheel Collection Data.xlsx",
-  sheet = "Gwynns Falls Trash Wheel",
+  "202610 Trash Wheel Collection Data.xlsx",
+  sheet = "Gwynnda the Good Wheel of the W",
   range = "A2:L351"
   ) |>
   janitor::clean_names() |>
